@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Vac Lifting Machine Selector</title>
+    <link rel="stylesheet" type="text/css" href="resources/CSS/stylesheet.css">
+  </head>
+  
+  <body>
+  
+    <header>
+
+        <h1>Vac Lifting Machine Selector</h1>
+
+    </header>
+
+    <section>
+                <form type="submit">
+        
+                    <!--Type of panel - i.e. roof/wall -->
+                    <section class="question">
+                        <label for="type">What type of panel are they lifting?</label>
+                        <select name="type" id="type">
+                                <option value="Please choose an option">Please choose an option</option>
+                                <option value="Roof">Roof</option>
+                                <option value="Wall">Wall</option>
+                                <option value="Roof-Wall">Roof & Wall</option>
+                                <option value="Structural Deck / Floor Tray">Structural Deck / Floor Tray</option>
+                                <option value="Glass">Glass</option>
+                                <option value="Gutter">Gutter</option>
+                        </select>
+                    </section>     
+                    
+
+                    <!--Panel manufacturer-->
+                    <section class="question">
+                            <label for="type">What is the panel manufacturer?</label>
+                            <select name="manufacturer" id="manufacturer">
+                                    <option value="Please choose an option">Please choose an option</option>
+                                    <option value="Kingspan">Kingspan</option>
+                                    <option value="TATA">TATA</option>
+                                    <option value="Joriside">Joriside</option>
+                                    <option value="Steadmans">Steadmans</option>
+                                    <option value="Eurobond">Eurobond</option>
+                                    <option value="Arcelor Mittal">Arcelor Mittal</option>
+                                    <option value="Isoclad">Isoclad</option>
+                                    <option value="Ruuki">Ruuki</option>
+                                    <option value="Generic PIR">Generic PIR</option>
+                                    <option value="Generic Mineral Wool">Generic Mineral Wool</option>
+                            </select>
+                        </section>     
+
+
+                        <!--Kingspan wall panel types-->
+                        <section class="question">
+                                <label for="type">What type of Kingspan wall panel is it?</label>
+                                <select name="kingspan-wall" id="kingspan-wall">
+                                        <option value="Please choose an option">Please choose an option</option>
+                                        <option value="KS1000 RW">KS1000 RW</option>
+                                        <option value="KS1000 DR/DRC">KS1000 DR/DRC</option>
+                                        <option value="KS1000 SRW">KS1000 SRW</option>
+                                        <option value="KS1000 MM">KS1000 MM</option>
+                                        <option value="KS1000 FL">KS1000 FL</option>
+                                        <option value="KS1000 WV">KS1000 WV</option>
+                                        <option value="KS1000 CW">KS1000 CW</option>
+                                        <option value="KS1000 LV">KS1000 LV</option>
+                                        <option value="Kingspan Optimo">Kingspan Optimo</option>
+                                        <option value="KS1000 LP">KS1000 LP</option>
+                                        <option value="KS1000 MR">KS1000 MR</option>
+                                        <option value="KS1000 CS">KS1000 CS</option>
+                                        <option value="KingZip">KingZip</option>
+                                </select>
+
+
+                                <!--Kingspan roof panel types-->
+                        <section class="question">
+                                <label for="type">What type of Kingspan roof panel is it?</label>
+                                <select name="kingspan-roof" id="kingspan-roof">
+                                        <option value="Please choose an option">Please choose an option</option>
+                                        <option value="KS1000 RW">KS1000 RW</option>
+                                        <option value="KS2000 RW">KS2000 RW</option>
+                                        <option value="KS1000 CR">KS1000 CR</option>
+                                        <option value="KS1000 DR/DRC">KS1000 DR/DRC</option>
+                                        <option value="KS1000 TS">KS1000 TS</option>
+                                        <option value="KS1000 RT">KS1000 RT</option>
+                                        <option value="KS1000 SRW">KS1000 SRW</option>
+                                        <option value="KS1000 TD">KS1000 TD</option>
+                                        <option value="KS1000 FL">KS1000 FL</option>
+                                        <option value="KS1000 LP">KS1000 LP</option>
+                                        <option value="KS1000 FC">KS1000 FC</option>
+                                        <option value="KS1000 TD">KS1000 TD</option>
+                                        <option value="KS1000 CS">KS1000 CS</option>
+                                        <option value="KingZip">KingZip</option>
+                                </select>
+                                        
+                        </section>     
+
+
+
+                
+                    <!--Orientation of wall panel-->
+                    <section class="question">
+                            <label for="orientation">What orienation are the wall panels?</label>
+                            <select name="orientation" id="orientation">
+                                    <option value="Please choose an option">Please choose an option</option>
+                                    <option value="Vertical">Vertical</option>
+                                    <option value="Horizontal">Horizontal</option>
+                            </select>
+                        </section>
+                    
+                    <!-- Length of panel-->
+                    <section class="question">
+                        <label for="panel-length">What length are the panels?</label>
+                        <input type required="number" name="panel-length" id="panel-length">
+                    </section>
+
+
+                    <!-- Width of panel-->
+                    <section class="question">
+                        <label for="panel-width">What width are the panels?</label>
+                        <input type required="number" name="panel-width" id="panel-width">
+                        </section>
+
+                                            
+                    <!-- Thickness of panel-->
+                    <section class="question">
+                        <label for="panel-thickness">What thickness are the panels?</label>
+                        <input type ="number" name="panel-thickness" id="panel-thickness">
+                    </section>
+
+
+                        <!-- Pitch of roof panel-->
+                    <section class="question">
+                            <label for="panel-pitch">What pitch are the roof panels?</label>
+                            <input type required="number" name="panel-pitch" id="panel-pitch">
+                        </section>
+
+                                
+                
+        </form>
+
+
+    </section>
+
+
+
+  </body>
+</html>
